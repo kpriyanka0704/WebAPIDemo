@@ -12,6 +12,8 @@ namespace WebAPIDemo.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Book> Books { get; set; }
 
     }
 }
+
